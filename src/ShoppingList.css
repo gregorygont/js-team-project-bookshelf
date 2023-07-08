@@ -63,8 +63,6 @@ button {
 display: block;
 width: 356px;
 height: 490px;
-top: 112px;
-left: 24px;
 border-radius: 16px;
 background: radial-gradient(183.6% 183.01% at 59.76% -23.42%, #4F2EE8 18.03%, #FFFFFF 100%)
         /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
@@ -127,4 +125,13 @@ line-height: 18px;
 letter-spacing: -0.02em;
 text-align: center;
 width: 244px;
+}
+.number__item{
+font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #FFFFFF;
 }
