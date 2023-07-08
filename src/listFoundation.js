@@ -15,4 +15,3 @@ return galleryItems.map(({title, url, img,number}) =>{
     `  
 }).join("");
 }
-createPictureGalery(galleryItems)

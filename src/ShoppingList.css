@@ -69,6 +69,24 @@ background: radial-gradient(183.6% 183.01% at 59.76% -23.42%, #4F2EE8 18.03%, #F
     ;
 }
 }
+.gallery__item{
+    padding-bottom: 40px;
+}
+.support-list{
+    padding: 20px;
+    height: 292px;
+    overflow: hidden;
+}
+.number__item {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-right: 16px;
+}
 .support-title{
     width: 237px;
     height: 32px;
@@ -83,6 +101,7 @@ background: radial-gradient(183.6% 183.01% at 59.76% -23.42%, #4F2EE8 18.03%, #F
     text-align: left;
     color: #FFFFFF;
     padding-left: 40px;
+    padding-right: 40px;
     padding-top: 24px;
 }
 .scroll-down{
@@ -125,13 +144,4 @@ line-height: 18px;
 letter-spacing: -0.02em;
 text-align: center;
 width: 244px;
-}
-.number__item{
-font-family: DM Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: -0.04em;
-    text-align: left;
-    color: #FFFFFF;
 }
