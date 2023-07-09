@@ -9,7 +9,6 @@
 @import './utils/variables';
 @import './utils/mixins';
 
-
 // Common styles
 @import './common';
 
@@ -17,7 +16,7 @@
 // @import './components/buttons';
 // @import './components/back-to-top';
 // @import './components/spinner';
-// @import './components/color-scheme-switcher';
+@import './components/color-scheme-switcher';
 // @import './components/pagination';
 
 // Layout
@@ -38,6 +37,7 @@
 // // Modal
 // @import './layout/modal';
 
-// // Color schemes
+// Color schemes
 @import './color-schemes/light';
-// @import './color-schemes/dark';
+@import './color-schemes/dark';
+
