@@ -1,14 +1,14 @@
 // // Defaults
-// @import './base/basic-reset';
-// @import './base/defaults';
+@import './base/basic-reset';
+@import './base/defaults';
 
 // // // Fonts
 // // @import './fonts/fonts';
 
 // // Utilities
-// @import './utils/variables';
+@import './utils/variables';
 // @import './utils/animations';
-// @import './utils/mixins';
+@import './utils/mixins';
 
 // // Common styles
 // @import './common';
@@ -31,8 +31,8 @@
 // @import './layout/categories-menu';
 
 // // Content part
-// @import './layout/bestsellers';
-// @import './layout/home-content';
+@import './layout/bestsellers';
+@import './layout/home-content';
 // @import './layout/shopping-list-content';
 
 // // Modal
