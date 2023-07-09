@@ -8,14 +8,17 @@
           aria-label="Logo"
           width="20"
           height="20"
-        ></svg></span
+        >
+          <use href="./images/symbol-defs.svg#icon-logo"></use></svg></span
       ><svg
         class="page-logo-last"
         lang="en"
-        aria-label="Logo text 'Book'"
+        aria-label="Logo text 'Bookshelf'"
         width="53"
         height="17"
-      ></svg>
+      >
+        <use href="./images/symbol-defs.svg#icon-Book_desktop"></use>
+      </svg>
     </a>
     <div class="page-navigation-wrapper">
       <!-- Navigation -->
@@ -38,7 +41,9 @@
               aria-label="Suitcase icon"
               width="20"
               height="20"
-            ></svg>
+            >
+              <use href="./images/symbol-defs.svg#icon-uil-cart"></use>
+            </svg>
           </a>
         </li>
       </ul>
@@ -56,7 +61,16 @@
             data-menu-open
             aria-label="Open mobile menu"
           >
-            <svg width="28" height="28"></svg>
+            <svg width="28" height="28">
+              <use
+                class="mobile-menu-open mobile-menu-open__icon"
+                href="./images/symbol-defs.svg#icon-align-left"
+              ></use>
+              <use
+                class="mobile-menu__close-button mobile-menu__close-icon is-hidden"
+                href="./images/symbol-defs.svg#icon-x-close"
+              ></use>
+            </svg>
           </button>
         </li>
         <li class="page-navigation-list">
