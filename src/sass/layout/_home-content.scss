@@ -4,13 +4,13 @@
   gap: 40px;
   align-items: center;
 
-  @media screen and (min-width: 375px) {
+  @media screen and (min-width: $tablet) {
     flex-flow: row wrap;
     row-gap: 40px;
     column-gap: 25px;
   }
 
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: $desktop) {
     column-gap: 24px;
   }
 }
