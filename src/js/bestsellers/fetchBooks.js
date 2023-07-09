@@ -1,4 +1,5 @@
 import Notiflix from 'notiflix';
+import axios from 'axios';
 
 export default async function getTopBooksArray() {
   Notiflix.Loading.dots();
