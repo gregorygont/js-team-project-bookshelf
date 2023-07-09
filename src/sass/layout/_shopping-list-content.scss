@@ -1,0 +1,132 @@
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+
+}
+
+.list-books {
+    margin: 120px 55px 0px 55px;
+}
+
+@media(min-width: 768px) {
+    .list-books {
+        margin: 140px 210px 0px 210px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .list-books {
+        margin: 140px 210px 0px 210px;
+    }
+}
+
+.support-ukraine {
+    display: none;
+    position: relative;
+
+}
+
+@media (min-width: 1440px) {
+    .support-ukraine {
+        display: block;
+        width: 356px;
+        height: 490px;
+        border-radius: 16px;
+        background: radial-gradient(183.6% 183.01% at 59.76% -23.42%, #4F2EE8 18.03%, #FFFFFF 100%)
+            /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        ;
+    }
+}
+
+.gallery__item {
+    padding-bottom: 40px;
+}
+
+.support-list {
+    padding: 20px;
+    height: 292px;
+    overflow: hidden;
+}
+
+.number__item {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-right: 16px;
+}
+
+.support-title {
+    width: 237px;
+    height: 32px;
+    top: 24px;
+    left: 40px;
+    gap: 12px;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 24px;
+}
+
+.scroll-down {
+    width: 22px;
+    height: 22px;
+    bottom: 24px;
+    left: 159px;
+    padding: 4px 7px 4px 7px;
+    border-radius: 50px;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+}
+
+.shopping-list {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.title-shopping-list {
+    font-family: DM Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+
+.color-title-shopping-list {
+    color: #4F2EE8;
+
+}
+
+.text-shopping-list {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    width: 244px;
+}
