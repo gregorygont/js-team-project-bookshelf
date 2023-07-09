@@ -16,3 +16,29 @@
     transition-timing-function: $function;
     transition-delay: $delay;
 }
+
+// Transition effect for multiple properties with non-customizable site-global values
+
+@mixin transition-multiple($property...) {
+    transition-property: $property;
+    transition-duration: $transition-duration;
+    transition-timing-function: $transition-timing-function;
+}
+
+// Font-size in rem + line height
+
+@mixin fz-lh($fz, $lh: false) {
+    font-size: $fz + px;
+
+    @if ($lh) {
+        line-height: calc($lh / $fz);
+    }
+}
+
+@mixin fz-lh-rem($fz, $lh: false) {
+    font-size: rem($fz);
+
+    @if ($lh) {
+        line-height: calc($lh / $fz);
+    }
+}

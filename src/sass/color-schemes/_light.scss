@@ -1,0 +1,15 @@
+:root {
+  --accent-primary: #{$violet};
+  --accent-secondary: #{$gold};
+}
+
+body {
+  /* Body */
+  --background-color: #{$milky};
+  --text-color: #{$blackish};
+
+  /* Header */
+  --header-bg-color: white;
+  --header-border-color: #{$blackish};
+  --logo-stroke-color: black;
+}
