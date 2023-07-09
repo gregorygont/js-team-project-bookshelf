@@ -1,34 +1,33 @@
 .category-books-list {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
 
-  @media screen and (min-width: $tablet) {
-    flex-flow: row wrap;
-    row-gap: 40px;
-    column-gap: 25px;
-  }
+    @media screen and (min-width: $tablet) {
+        flex-flow: row wrap;
+        row-gap: 40px;
+        column-gap: 25px;
+    }
 
-  @media screen and (min-width: $desktop) {
-    column-gap: 24px;
-  }
+    @media screen and (min-width: $desktop) {
+        column-gap: 24px;
+    }
 }
 
-.main-title--last-word-static {
-  color: #4f2ee8;
+.books-list-item {
+    --gap: 25px;
+
+    @media screen and (min-width: $mobile) {
+        @include flex-basis(1, var(--gap));
+    }
+
+    @media screen and (min-width: $tablet) {
+        @include flex-basis(3, var(--gap));
+    }
+
+    @media screen and (min-width: $desktop) {
+        // --gap: 24px;
+        @include flex-basis(5, var(--gap));
+    }
 }
-
-// .books-list-item {
-//   @media screen and (min-width: 375px) {
-//     @include flex-basis(1, 25px);
-//   }
-
-//   @media screen and (min-width: 768px) {
-//     @include flex-basis(3, 25px);
-//   }
-
-//   @media screen and (min-width: 1440px) {
-//     @include flex-basis(5, 24px);
-//   }
-// }

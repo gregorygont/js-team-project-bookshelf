@@ -17,8 +17,8 @@ import './js/header/color-scheme-switcher.js';
 // import './js/support-ukraine/support.js';
 
 // // Content part
-// import './js/bestsellers/bestsellers';
-// import './js/bestsellers/seeMore.js';
+import './js/bestsellers/bestsellers';
+import './js/bestsellers/seeMore.js';
 
 // // Modal - popup
 // import './js/modal-popup/modal.js';
