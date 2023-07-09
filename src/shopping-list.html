@@ -2,31 +2,61 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./sass/layout/_shopping-list-content.scss" />
+<<<<<<< Updated upstream
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+=======
+>>>>>>> Stashed changes
+    <meta
+      name="description"
+      content="Browse and shop for best books out there"
+    />
+    <title>Shopping list</title>
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <script type="module" src="./shopping-list.js"></script>
   </head>
-  <body>
-    <div class="container">
-      <section class="shopping-list">
-        <div class="support-ukraine">
-          <h2 class="support-title">Support Ukraine</h2>
-          <ul class="support-list list"></ul>
-          <button class="scroll-down">m</button>
-        </div>
-        <div class="mobile-div">
-          <h1 class="title-shopping-list">
-            Shopping <span class="color-title-shopping-list">List</span>
-          </h1>
-          <div class="list-books">
-            <p class="text-shopping-list">
-              This page is empty, add some books and proceed to order.
-            </p>
-            <img src="/src/images/book-mobile-1x.png" alt="stack of books" />
-          </div>
-        </div>
-      </section>
+<<<<<<< Updated upstream
+  <body class="page">
+    <!-- <include src="./partials/layout/header/header.html"></include> -->
+
+     <div class="container page-container">
+      <div class="to-top-target"></div>
+      <aside class="sidebar sidebar-shoppinglist">
+        <!-- <include src="./partials/layout/sidebar/support.html"></include> -->
+      </aside>
+    
+        <main class="content">
+          <include src="./partials/layout/shopping-list-content.html"></include>
+          <!-- <include src="./partials/components/pagination.html"></include> -->
+
+          <!-- <include src="./partials/components/back-to-top.html"></include> -->
+
+          <!-- <include src="./partials/layout/header/burger-menu.html"></include> -->
+
+        </main>
+=======
+
+  <body class="page">
+    <include src="./partials/layout/header/header.html"></include>
+
+    <div class="container page-container">
+      <div class="to-top-target"></div>
+
+      <aside class="sidebar sidebar-shoppinglist">
+        <!-- Support Ukraine -->
+        <include src="./partials/layout/sidebar/support.html"></include>
+      </aside>
+
+      <main class="content">
+        <include src="./partials/layout/shopping-list-content.html"></include>
+        <include src="./partials/components/pagination.html"></include>
+
+        <include src="./partials/components/back-to-top.html"></include>
+
+        <include src="./partials/layout/header/burger-menu.html"></include>
+      </main>
+>>>>>>> Stashed changes
     </div>
-    <!-- <script src="listFoundation.js" type="module"></script> -->
   </body>
-</html
+</html>
