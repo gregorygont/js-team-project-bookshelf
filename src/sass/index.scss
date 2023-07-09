@@ -6,7 +6,7 @@
 // // @import './fonts/fonts';
 
 // // Utilities
-// @import './utils/variables';
+@import './utils/variables';
 // @import './utils/animations';
 // @import './utils/mixins';
 
@@ -17,7 +17,7 @@
 // @import './components/buttons';
 // @import './components/back-to-top';
 // @import './components/spinner';
-// @import './components/color-scheme-switcher';
+@import './components/color-scheme-switcher';
 // @import './components/pagination';
 
 // // Layout
@@ -40,4 +40,4 @@
 
 // // Color schemes
 // @import './color-schemes/light';
-// @import './color-schemes/dark';
+@import './color-schemes/dark';
