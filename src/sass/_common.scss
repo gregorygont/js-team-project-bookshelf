@@ -1,5 +1,3 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';
-
 body {
     font-family: 'DM Sans', sans-serif;
     background-color: var(--background-color);
@@ -21,22 +19,13 @@ body {
     /* Firefox */
 }
 
-// body * {
-//   transition: color 200ms, background-color 200ms;
-// }
-
 .container {
-    // outline: 2px solid maroon;
     margin-left: auto;
     margin-right: auto;
 
     @media screen and (max-width: ($tablet - 1)) {
         min-width: calc(100vw - 40px);
     }
-
-    // @media screen and (min-width: $mobile) {
-    //   width: $mobile;
-    // }
 
     @media screen and (min-width: $tablet) {
         width: $tablet;
@@ -95,8 +84,6 @@ aside {
 }
 
 .content {
-    // display: flex;
-    // flex-direction: column;
 
     padding-bottom: 40px;
 
@@ -117,7 +104,6 @@ aside {
 
 .sidebar-shoppinglist {
     display: none;
-
     @media screen and (min-width: $desktop) {
         display: inherit;
     }
