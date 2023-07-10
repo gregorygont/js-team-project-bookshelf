@@ -1,0 +1,17 @@
+.paginations {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginations__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginations__container-back,
+.paginations__container-end {
+  display: none;
+}
