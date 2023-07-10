@@ -1,0 +1,55 @@
+.to-top-target {
+    height: 15vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    z-index: $to-top-button-index;
+
+    height: 54px;
+    width: 54px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    // background-color: var(--to-top-button-bg-color); 4F2EE8
+    background-color: #4F2EE8;
+    border: 5px solid transparent;
+    border-radius: 50%;
+
+    // offset-x | offset-y | blur-radius | spread-radius | color
+    box-shadow: 0 0 0 5px var(--to-top-button-shadow-color);
+
+    &:hover,
+    &:focus {
+        scale: 1.2;
+
+        // .button-icon--arrow {
+        //   --color1: var(--accent-secondary);
+        // }
+    }
+
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 300ms ease-in,
+    visibility 300ms ease-in,
+    scale 1s;
+    // transition: all 0.2s ease;
+
+    &.hidden {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.button-icon--arrow {
+    // --color1: var(--to-top-button-icon-color);
+        --color1: #fff;
+    transition: fill 500ms ease-in-out;
+}
