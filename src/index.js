@@ -1,7 +1,7 @@
 // // Header
-// import './js/header/header-height-adjust.js';
+import './js/header/header-height-adjust.js';
 import './js/header/color-scheme-switcher.js';
-// import './js/header/burger-mobile.js';
+import './js/header/burger-mobile.js';
 
 // // Fetch
 import './js/books-by-category/fetchSelectedBooks';
@@ -9,9 +9,9 @@ import './js/books-by-category/fetchSelectedBooks';
 
 // // Sidebar
 // // Category selection menu
-// import './js/categories-menu/renderCategoriesList.js';
-// import './js/categories-menu/activeCatBtnSwitcher.js';
-// import './js/categories-menu/handleCategoryClick.js';
+import './js/categories-menu/renderCategoriesList.js';
+import './js/categories-menu/activeCatBtnSwitcher.js';
+import './js/categories-menu/handleCategoryClick.js';
 
 // // Support Ukraine block
 // import './js/support-ukraine/support.js';
@@ -32,4 +32,4 @@ import './js/modal-popup/modal.js';
 // import './js/modal-login/form-validator.js';
 
 // // Scroll-to-top button
-// import './js/components/back-to-top';
+import './js/components/back-to-top';
