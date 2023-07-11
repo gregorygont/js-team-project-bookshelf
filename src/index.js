@@ -1,5 +1,5 @@
 // // Header
-// import './js/header/header-height-adjust.js';
+import './js/header/header-height-adjust.js';
 import './js/header/color-scheme-switcher.js';
 // import './js/header/burger-mobile.js';
 
