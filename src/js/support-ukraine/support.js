@@ -17,8 +17,8 @@ function makeMarkup({ url, title, img }, index) {
         <span class="support-index">${digits}</span>
         <a class="support-link" href="${url}" target="_blank" rel="noopener noreferrer nofollow">
             <img
-                srcset="${img.normal} 1x, ${img.retina} 2x"
-                src="${img.normal}" type="image/png" alt="${title}">
+                srcset="${img} 1x
+                src="${img}" type="image/png" alt="${title}">
         </a>
     </li>`;
 }
@@ -26,7 +26,7 @@ function makeMarkup({ url, title, img }, index) {
 list.innerHTML = html;
 
 const str = charities.map((element, index) => {
-  return '<li class="support-item"> ссылка на фонд <a class="support-link" href=""></a></li>';
+  return '<li class="support-item"> посилання на фонд <a class="support-link" href=""></a></li>';
 });
 
 const swiper = new Swiper('.swiper', {
