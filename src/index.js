@@ -5,7 +5,7 @@ import './js/header/burger-mobile.js';
 
 // // Fetch
 import './js/books-by-category/fetchSelectedBooks';
-// import './js/components/spinner.js';
+import './js/components/spinner.js';
 
 // // Sidebar
 // // Category selection menu
