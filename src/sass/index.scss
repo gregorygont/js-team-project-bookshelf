@@ -1,23 +1,25 @@
+
 // Defaults
 @import './base/basic-reset';
 @import './base/defaults';
 
 // // // Fonts
-// // @import './fonts/fonts';
+@import './fonts/fonts';
 
-// Utilities
+// // Utilities
+@import './utils/variables';
+// @import './utils/animations';
 @import './utils/variables';
 @import './utils/mixins';
-
 
 // Common styles
 @import './common';
 
 // // Components
-// @import './components/buttons';
-// @import './components/back-to-top';
+@import './components/buttons';
+@import './components/back-to-top';
 // @import './components/spinner';
-// @import './components/color-scheme-switcher';
+@import './components/color-scheme-switcher';
 // @import './components/pagination';
 
 // Layout
@@ -31,13 +33,14 @@
 @import './layout/categories-menu';
 
 // // Content part
-// @import './layout/bestsellers';
+@import './layout/bestsellers';
 @import './layout/home-content';
-// @import './layout/shopping-list-content';
+@import './layout/shopping-list-content';
 
 // // Modal
 @import './layout/modal';
 
-// // Color schemes
+// Color schemes
 @import './color-schemes/light';
-// @import './color-schemes/dark';
+@import './color-schemes/dark';
+
