@@ -1,11 +1,8 @@
 import getTopBooksArray from './fetchBooks';
 import { createBookMarkup } from '../_shared/oneBookMarkup';
-// import getRefs from '../refs.js';
+import getRefs from '../refs.js';
 
-// const { renderingContainer } = getRefs();
-const renderingContainer = document.querySelector(
-  '.content-rendering-container'
-);
+const { renderingContainer } = getRefs();
 
 // Fetch and render bestsellers:
 export async function renderTopBooks() {

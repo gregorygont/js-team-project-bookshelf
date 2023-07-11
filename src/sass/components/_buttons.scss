@@ -41,3 +41,20 @@
     }
   }
 }
+
+// Buttons in the popup
+.button--popup {
+  padding: 14px 23px;
+  min-width: 210px;
+
+  @media screen and (min-width: $tablet) {
+    padding: 20px 0;
+    min-width: 500px;
+  }
+}
+
+// Buttons in the user bar
+.button--login {
+  border: 1.5px solid black;
+  border-radius: 18px;
+}

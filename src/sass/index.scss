@@ -4,7 +4,7 @@
 @import './base/defaults';
 
 // // // Fonts
-// // @import './fonts/fonts';
+@import './fonts/fonts';
 
 // // Utilities
 @import './utils/variables';
@@ -16,8 +16,8 @@
 @import './common';
 
 // // Components
-// @import './components/buttons';
-// @import './components/back-to-top';
+@import './components/buttons';
+@import './components/back-to-top';
 // @import './components/spinner';
 @import './components/color-scheme-switcher';
 // @import './components/pagination';
@@ -35,7 +35,7 @@
 // // Content part
 @import './layout/bestsellers';
 @import './layout/home-content';
-// @import './layout/shopping-list-content';
+@import './layout/shopping-list-content';
 
 // // Modal
 @import './layout/modal';
