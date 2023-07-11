@@ -2,7 +2,7 @@ import charities from './charities';
 import Swiper, { Navigation } from 'swiper';
 
 import 'swiper/swiper.min.css';
-import 'swiper/modules/navigation/navigation.min.css';
+import 'swiper/modules/navigation.min.css';
 
 const list = document.querySelector('.support-list');
 
