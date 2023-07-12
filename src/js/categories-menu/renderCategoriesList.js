@@ -1,19 +1,26 @@
-import axios from 'axios';
+// import axios from 'axios';
 import getRefs from '../refs';
 
 const { categoryListEl } = getRefs();
 
-async function categoriesArray() {
-  try {
-    const { data } = await axios.get(
-      'https://books-backend.p.goit.global/books/category-list'
-    );
+// async function categoriesArray() {
+//   try {
+//     const { data } = await axios.get(
+//       'https://books-backend.p.goit.global/books/category-list'
+//     );
 
-    return data;
-  } catch (error) {
-    console.log(error);
-  }
-}
+//     return data;
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
+const categoriesArray = async () => {
+  const response = await fetch(
+    'https://books-backend.p.goit.global/books/category-list'
+  );
+  const data = await response.json();
+  return data;
+};
 
 export async function renderCategories() {
   try {
