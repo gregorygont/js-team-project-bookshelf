@@ -28,7 +28,7 @@ import './js/modal-popup/modal.js';
 // import './js/firebase/authservice';
 // import './js/firebase/firebaseservise';
 
-// import './js/modal-login/authorization-form.js';
+
 // import './js/modal-login/form-validator.js';
 
 // // Scroll-to-top button
