@@ -19,6 +19,7 @@ const categoriesArray = async () => {
     'https://books-backend.p.goit.global/books/category-list'
   );
   const data = await response.json();
+  // console.log(data);
   return data;
 };
 

@@ -21,6 +21,7 @@ export async function renderTopBooks() {
       console.log(error);
     }
   }
+  console.log(data);
   const bestsellerListMarkup = `
       <ul class="category-blocks-list">
         ${data
