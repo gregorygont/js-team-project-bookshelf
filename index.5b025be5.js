@@ -19,7 +19,7 @@ function t(t){return t&&t.__esModule?t.default:t}var e,n,i,o,r,a="undefined"!=ty
             </li>
           `).join("")}
       </ul>
-    `;eJ.innerHTML=e}async function eG(){t(eP).Loading.dots();try{let e=await fetch("https://books-backend.p.goit.global/books/category-list"),n=await e.json();return t(eP).Loading.remove(),n}catch(e){t(eP).Loading.remove(),t(eP).Notify.failure("Something went wrong. Please try again"),console.log(e)}}const{renderingContainer:eK}=s();async function eQ(){let t;let e=sessionStorage.getItem("bestsellers");if(e)t=JSON.parse(e);else try{t=await eG(),sessionStorage.setItem("bestsellers",JSON.stringify(t))}catch(t){console.log(t)}let n=`
+    `;eJ.innerHTML=e}async function eG(){t(eP).Loading.dots();let e=async()=>{let e=await fetch("https://books-backend.p.goit.global/books/top-books"),n=await e.json();return t(eP).Loading.remove(),n};try{return e()}catch(e){t(eP).Loading.remove(),t(eP).Notify.failure("Something went wrong. Please try again"),console.log(e)}}const{renderingContainer:eK}=s();async function eQ(){let t;let e=sessionStorage.getItem("bestsellers");if(e)t=JSON.parse(e);else try{t=await eG(),sessionStorage.setItem("bestsellers",JSON.stringify(t))}catch(t){console.log(t)}console.log(t);let n=`
       <ul class="category-blocks-list">
         ${t.map(({list_name:t,books:e})=>`
               <li class="bestseller-category">
@@ -54,4 +54,4 @@ function t(t){return t&&t.__esModule?t.default:t}var e,n,i,o,r,a="undefined"!=ty
       </div>
     </div>
 `}(e),document.body.style.overflow="hidden",nn.closeModalPopUpBtn.addEventListener("click",nc),document.addEventListener("keydown",nu),document.addEventListener("click",nf);let n=nr.find(t=>t._id===e._id);if(n){nn.addBtnEL.textContent="Remove from the shopping list",nn.addBtnEL.after(ns);return}nn.addBtnEL.textContent="Add to shopping list",ns.remove()}catch(t){console.log(t)}}function nc(t){nn.modalPopUp.classList.add("is-hidden"),document.body.style.removeProperty("overflow")}function nf(t){t.target==nn.modalPopUp&&(nn.modalPopUp.classList.add("is-hidden"),document.body.style.removeProperty("overflow"))}function nu(t){"Escape"===t.key&&(nn.modalPopUp.classList.add("is-hidden"),document.body.style.removeProperty("overflow"))}ns.classList.add("modal-message"),ns.textContent='Congratulations! You have added the book to the shopping list. To delete, press the button "Remove from the shopping list."',nn.closeModalPopUpBtn.removeEventListener("click",nc),document.removeEventListener("click",nf),document.removeEventListener("keydown",nu);
-//# sourceMappingURL=index.34709083.js.map
+//# sourceMappingURL=index.5b025be5.js.map

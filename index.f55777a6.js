@@ -19,7 +19,7 @@
             </li>
           `).join("")}
       </ul>
-    `;eK.innerHTML=e}async function eZ(){e(eH).Loading.dots();try{let t=await fetch("https://books-backend.p.goit.global/books/category-list"),n=await t.json();return e(eH).Loading.remove(),n}catch(t){e(eH).Loading.remove(),e(eH).Notify.failure("Something went wrong. Please try again"),console.log(t)}}let{renderingContainer:e0}=f();async function e1(){let t;let e=sessionStorage.getItem("bestsellers");if(e)t=JSON.parse(e);else try{t=await eZ(),sessionStorage.setItem("bestsellers",JSON.stringify(t))}catch(t){console.log(t)}let n=`
+    `;eK.innerHTML=e}async function eZ(){e(eH).Loading.dots();let t=async()=>{let t=await fetch("https://books-backend.p.goit.global/books/top-books"),n=await t.json();return e(eH).Loading.remove(),n};try{return t()}catch(t){e(eH).Loading.remove(),e(eH).Notify.failure("Something went wrong. Please try again"),console.log(t)}}let{renderingContainer:e0}=f();async function e1(){let t;let e=sessionStorage.getItem("bestsellers");if(e)t=JSON.parse(e);else try{t=await eZ(),sessionStorage.setItem("bestsellers",JSON.stringify(t))}catch(t){console.log(t)}console.log(t);let n=`
       <ul class="category-blocks-list">
         ${t.map(({list_name:t,books:e})=>`
               <li class="bestseller-category">
@@ -54,4 +54,4 @@
       </div>
     </div>
 `}(t),document.body.style.overflow="hidden",nr.closeModalPopUpBtn.addEventListener("click",np),document.addEventListener("keydown",nd),document.addEventListener("click",nm);let n=nl.find(e=>e._id===t._id);if(n){nr.addBtnEL.textContent="Remove from the shopping list",nr.addBtnEL.after(nf);return}nr.addBtnEL.textContent="Add to shopping list",nf.remove()}catch(t){console.log(t)}}function np(t){nr.modalPopUp.classList.add("is-hidden"),document.body.style.removeProperty("overflow")}function nm(t){t.target==nr.modalPopUp&&(nr.modalPopUp.classList.add("is-hidden"),document.body.style.removeProperty("overflow"))}function nd(t){"Escape"===t.key&&(nr.modalPopUp.classList.add("is-hidden"),document.body.style.removeProperty("overflow"))}nf.classList.add("modal-message"),nf.textContent='Congratulations! You have added the book to the shopping list. To delete, press the button "Remove from the shopping list."',nr.closeModalPopUpBtn.removeEventListener("click",np),document.removeEventListener("click",nm),document.removeEventListener("keydown",nd)}();
-//# sourceMappingURL=index.4425da4f.js.map
+//# sourceMappingURL=index.f55777a6.js.map
