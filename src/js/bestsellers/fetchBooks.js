@@ -1,5 +1,4 @@
 import Notiflix from 'notiflix';
-// import axios from 'axios';
 
 export default async function getTopBooksArray() {
   Notiflix.Loading.dots();
@@ -14,17 +13,6 @@ export default async function getTopBooksArray() {
     return data;
   };
   try {
-    // const { data } = await axios.get(
-    //   'https://books-backend.p.goit.global/books/top-books'
-    // );
-    // const response = await fetch(
-    //   'https://books-backend.p.goit.global/books/top-books'
-    // );
-    // const data = await response.json();
-
-    // // console.log(data);
-    // return data;
-
     return categoriesArray();
   } catch (error) {
     Notiflix.Loading.remove();
