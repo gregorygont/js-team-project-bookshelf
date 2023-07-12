@@ -1,8 +1,9 @@
 import charities from './charities';
-import Swiper, { Navigation } from 'swiper';
+import Swiper from 'swiper';
+import { Navigation } from 'swiper/modules';
 
 import 'swiper/swiper.min.css';
-import 'swiper/modules/navigation.min.css';
+
 
 const list = document.querySelector('.support-list');
 
@@ -17,7 +18,7 @@ function makeMarkup({ url, title, img }, index) {
         <span class="support-index">${digits}</span>
         <a class="support-link" href="${url}" target="_blank" rel="noopener noreferrer nofollow">
             <img
-                srcset="${img} 1x
+                srcset="${img}" 1x
                 src="${img}" type="image/png" alt="${title}">
         </a>
     </li>`;

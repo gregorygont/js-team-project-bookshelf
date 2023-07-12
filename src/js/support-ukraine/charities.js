@@ -1,8 +1,8 @@
 export default [
   {
-    title: 'Save the Children',
+    title: 'Save the hildren',
     url: 'https://www.savethechildren.net/what-we-do/emergencies/ukraine-crisis',
-    img: new URL('/src/images/save-the-children.png', import.meta.url).href,
+    img: new URL('../../images/save-the-children.png', import.meta.url).href
   },
   {
     title: 'Project HOPE',
