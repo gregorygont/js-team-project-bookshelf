@@ -3,7 +3,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #e0e0e0;
+  background: var(--scrollbar-bg-color);
   border-radius: 12px;
 }
 
@@ -46,14 +46,14 @@
     line-height: 1.33;
   }
 
-  color: rgba(17, 17, 17, 0.6);
+  color: var(--category-color);
   transform: scale(1);
 
   transition: color 200ms, font-weight 200ms, transform 400ms;
 
   &:hover,
   &:focus {
-    color: #4f2ee8;
+    color: var(--active-category-color);
     transform: scale(1.03);
     transform-origin: center left;
   }
@@ -65,7 +65,7 @@
 
 .active-category {
   text-transform: uppercase;
-  color: #4f2ee8;
+  color: var(--active-category-color);
   font-weight: 700;
 
   white-space: nowrap;

@@ -14,7 +14,7 @@ import './js/categories-menu/activeCatBtnSwitcher.js';
 import './js/categories-menu/handleCategoryClick.js';
 
 // // Support Ukraine block
-// import './js/support-ukraine/support.js';
+import './js/support-ukraine/support.js';
 
 // // Content part
 import './js/bestsellers/bestsellers';
