@@ -17,7 +17,7 @@ export default [
   {
     title: 'International Medical Corps',
     url: 'https://internationalmedicalcorps.org/country/ukraine/',
-    img: new URL('/src/images/united24.png', import.meta.url).href,
+    img: new URL('/src/images/international-medical-corps.png', import.meta.url).href,
   },
   {
     title: 'Medicins Sans Frontieres',
