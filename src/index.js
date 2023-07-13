@@ -13,6 +13,7 @@ import './js/categories-menu/renderCategoriesList.js';
 import './js/categories-menu/activeCatBtnSwitcher.js';
 import './js/categories-menu/handleCategoryClick.js';
 
+
 // // Support Ukraine block
 import './js/support-ukraine/support.js';
 
@@ -27,7 +28,6 @@ import './js/modal-popup/modal.js';
 // import './js/firebase/firebase';
 // import './js/firebase/authservice';
 // import './js/firebase/firebaseservise';
-
 
 // import './js/modal-login/form-validator.js';
 
